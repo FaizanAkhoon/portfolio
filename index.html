@@ -16,10 +16,12 @@
     </div>
 
     <nav class="nav">
-        <div class="nav-logo">FA</div>
+        <a href="index.html" class="nav-logo magnetic">FA</a>
         <div class="nav-links">
             <a href="#about" class="magnetic">About</a>
             <a href="#expertise" class="magnetic">Expertise</a>
+            <a href="#work" class="magnetic">Work</a>
+            <a href="projects.html" class="magnetic nav-projects-btn">Projects ↗</a>
             <a href="#contact" class="magnetic">Contact</a>
         </div>
     </nav>
@@ -33,10 +35,39 @@
             
             <div class="hero-title-container">
                 <div class="line">
-                    <h1 class="hero-title">FAIZAN</h1>
+                    <h1 class="hero-title hero-interactive-title" aria-label="FAIZAN">
+                        <span class="letter-screen magnetic" data-char="F" data-color="neon-cyan" data-note="261">F</span>
+                        <span class="letter-screen magnetic" data-char="A" data-color="lime-gold" data-note="293">A</span>
+                        <span class="letter-screen magnetic" data-char="I" data-color="hyper-pink" data-note="329">I</span>
+                        <span class="letter-screen magnetic" data-char="Z" data-color="sunset-orange" data-note="349">Z</span>
+                        <span class="letter-screen magnetic" data-char="A" data-color="holo-opal" data-note="392">A</span>
+                        <span class="letter-screen magnetic" data-char="N" data-color="quantum-green" data-note="440">N</span>
+                    </h1>
                 </div>
                 <div class="line offset">
-                    <h1 class="hero-title"><span class="italic">AKHOON</span></h1>
+                    <h1 class="hero-title hero-interactive-title" aria-label="BASHIR">
+                        <span class="italic">
+                            <span class="letter-screen magnetic" data-char="b" data-color="plasma-crimson" data-note="493">b</span>
+                            <span class="letter-screen magnetic" data-char="a" data-color="aurora-teal" data-note="523">a</span>
+                            <span class="letter-screen magnetic" data-char="s" data-color="chroma-violet" data-note="587">s</span>
+                            <span class="letter-screen magnetic" data-char="h" data-color="synth-sunset" data-note="659">h</span>
+                            <span class="letter-screen magnetic" data-char="i" data-color="supernova-blue" data-note="698">i</span>
+                            <span class="letter-screen magnetic" data-char="r" data-color="liquid-gold" data-note="783">r</span>
+                        </span>
+                    </h1>
+                </div>
+                <div class="hero-screen-bar">
+                    <div class="screen-indicator-chip">
+                        <span class="screen-led"></span>
+                        <span class="screen-label">INTERACTIVE RGB PHOSPHOR SCREENS</span>
+                    </div>
+                    <div class="screen-controls">
+                        <span class="screen-hint-text">Hover or click any alphabet to animate its internal screen</span>
+                        <button type="button" class="screen-toggle-all-btn magnetic" id="toggleAllScreensBtn">
+                            <span class="btn-icon">⚡</span>
+                            <span class="btn-text">ACTIVATE ALL SCREENS</span>
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -116,9 +147,209 @@
             </div>
         </section>
 
+        <section class="work" id="work" data-scroll-section>
+            <div class="work-grid">
+                <div class="work-label">
+                    <p>( 03 / SELECTED WORK )</p>
+                </div>
+                <div class="work-content">
+                    <div class="work-header-line">
+                        <h2 class="work-section-title">SELECTED <span class="italic">WORKS</span></h2>
+                        <a href="projects.html" class="all-projects-link magnetic">
+                            <span>EXPLORE ALL ARCHIVES [4]</span>
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <p class="work-section-desc">A curated collection of production web applications, e-commerce architectures, healthcare digital studios, and academic SaaS platforms engineered with precision, bespoke aesthetics, and interactive flair.</p>
+
+                    <div class="work-items">
+                        <!-- Project 1 -->
+                        <div class="work-item" data-category="ecommerce">
+                            <div class="work-item-meta">
+                                <div class="work-item-index">01</div>
+                                <div class="work-item-tag">HAUTE COUTURE / E-COMMERCE</div>
+                                <h3 class="work-item-title">PASHIM SHAH <span class="italic">(A.K Couture)</span></h3>
+                                <p class="work-item-desc">Luxury Kashmiri bridal couture atelier with multi-currency checkout across 8 global currencies, bespoke bridal consultations, handcrafted Tilla/Zardozi showcases, and interactive styling.</p>
+                                <div class="work-item-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Vite</span>
+                                    <span class="tag">Tailwind CSS</span>
+                                    <span class="tag">Multi-Currency</span>
+                                    <span class="tag">Luxury Atelier</span>
+                                </div>
+                                <div class="work-item-actions">
+                                    <button class="preview-btn magnetic" data-url="https://pashimshah.vercel.app/" data-title="Pashim Shah — Luxury Kashmiri Bridal Atelier">
+                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                        <span>Live Preview</span>
+                                    </button>
+                                    <a href="https://pashimshah.vercel.app/" target="_blank" rel="noopener noreferrer" class="visit-btn magnetic">
+                                        <span>Visit Site</span>
+                                        <span class="arrow">↗</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-item-visual preview-trigger magnetic" data-url="https://pashimshah.vercel.app/" data-title="Pashim Shah — Luxury Kashmiri Bridal Atelier">
+                                <div class="work-window-bar">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                    <span class="window-url">pashimshah.vercel.app</span>
+                                    <span class="live-badge">● LIVE</span>
+                                </div>
+                                <div class="work-image-wrap">
+                                    <img src="assets/projects/pashimshah.png" alt="Pashim Shah Luxury Atelier Preview" loading="lazy">
+                                    <div class="work-overlay">
+                                        <span class="overlay-text">⚡ Click to Test Live Interactive Site</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="work-item" data-category="ecommerce">
+                            <div class="work-item-meta">
+                                <div class="work-item-index">02</div>
+                                <div class="work-item-tag">FARM TO KITCHEN / MARKETPLACE</div>
+                                <h3 class="work-item-title">CROPCART <span class="italic">PRODUCE</span></h3>
+                                <p class="work-item-desc">Sustainable organic grocery and chef-curated recipe kit marketplace featuring a dynamic multi-theme engine (Dark, Light, Earthy Beige), real-time cart state, and dietary recipe discovery.</p>
+                                <div class="work-item-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Tailwind CSS</span>
+                                    <span class="tag">Multi-Theme</span>
+                                    <span class="tag">Recipe Kits</span>
+                                    <span class="tag">E-Commerce</span>
+                                </div>
+                                <div class="work-item-actions">
+                                    <button class="preview-btn magnetic" data-url="https://cropcart-n.vercel.app/" data-title="Cropcart — Farm to Kitchen">
+                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                        <span>Live Preview</span>
+                                    </button>
+                                    <a href="https://cropcart-n.vercel.app/" target="_blank" rel="noopener noreferrer" class="visit-btn magnetic">
+                                        <span>Visit Site</span>
+                                        <span class="arrow">↗</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-item-visual preview-trigger magnetic" data-url="https://cropcart-n.vercel.app/" data-title="Cropcart — Farm to Kitchen">
+                                <div class="work-window-bar">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                    <span class="window-url">cropcart-n.vercel.app</span>
+                                    <span class="live-badge">● LIVE</span>
+                                </div>
+                                <div class="work-image-wrap">
+                                    <img src="assets/projects/cropcart.png" alt="Cropcart Organic Marketplace Preview" loading="lazy">
+                                    <div class="work-overlay">
+                                        <span class="overlay-text">⚡ Click to Test Live Interactive Site</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="work-item" data-category="healthcare">
+                            <div class="work-item-meta">
+                                <div class="work-item-index">03</div>
+                                <div class="work-item-tag">HEALTHCARE / ORTHODONTICS</div>
+                                <h3 class="work-item-title">BRACES <span class="italic">ANANTNAG</span></h3>
+                                <p class="work-item-desc">Architectural digital presence for a specialist orthodontic and dental surgery studio in Anantnag. Engineered with treatment showcases, seamless appointment booking, and real-time clinic hours.</p>
+                                <div class="work-item-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Vite</span>
+                                    <span class="tag">Dental Care</span>
+                                    <span class="tag">Interactive Booking</span>
+                                    <span class="tag">Responsive</span>
+                                </div>
+                                <div class="work-item-actions">
+                                    <button class="preview-btn magnetic" data-url="https://braces-anantnag.vercel.app/" data-title="Braces Anantnag — Specialist Orthodontic Studio">
+                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                        <span>Live Preview</span>
+                                    </button>
+                                    <a href="https://braces-anantnag.vercel.app/" target="_blank" rel="noopener noreferrer" class="visit-btn magnetic">
+                                        <span>Visit Site</span>
+                                        <span class="arrow">↗</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-item-visual preview-trigger magnetic" data-url="https://braces-anantnag.vercel.app/" data-title="Braces Anantnag — Specialist Orthodontic Studio">
+                                <div class="work-window-bar">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                    <span class="window-url">braces-anantnag.vercel.app</span>
+                                    <span class="live-badge">● LIVE</span>
+                                </div>
+                                <div class="work-image-wrap">
+                                    <img src="assets/projects/braces-anantnag.png" alt="Braces Anantnag Studio Preview" loading="lazy">
+                                    <div class="work-overlay">
+                                        <span class="overlay-text">⚡ Click to Test Live Interactive Site</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="work-item" data-category="saas">
+                            <div class="work-item-meta">
+                                <div class="work-item-index">04</div>
+                                <div class="work-item-tag">EDTECH / INTELLIGENT SAAS</div>
+                                <h3 class="work-item-title">AUTOMATE <span class="italic">UNIVERSITY</span></h3>
+                                <p class="work-item-desc">Futuristic student learning portal and academic automation platform (Axiom) featuring AI-assisted note summarization, voice-command integration, coursework progress, and gamified XP rewards.</p>
+                                <div class="work-item-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Vite</span>
+                                    <span class="tag">Glassmorphism</span>
+                                    <span class="tag">Voice / AI</span>
+                                    <span class="tag">EdTech SaaS</span>
+                                </div>
+                                <div class="work-item-actions">
+                                    <button class="preview-btn magnetic" data-url="https://automate-university-1fuz.vercel.app/" data-title="Automate University — Axiom Student Portal">
+                                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                        <span>Live Preview</span>
+                                    </button>
+                                    <a href="https://automate-university-1fuz.vercel.app/" target="_blank" rel="noopener noreferrer" class="visit-btn magnetic">
+                                        <span>Visit Site</span>
+                                        <span class="arrow">↗</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work-item-visual preview-trigger magnetic" data-url="https://automate-university-1fuz.vercel.app/" data-title="Automate University — Axiom Student Portal">
+                                <div class="work-window-bar">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                    <span class="window-url">automate-university-1fuz.vercel.app</span>
+                                    <span class="live-badge">● LIVE</span>
+                                </div>
+                                <div class="work-image-wrap">
+                                    <img src="assets/projects/automate-university.png" alt="Automate University Portal Preview" loading="lazy">
+                                    <div class="work-overlay">
+                                        <span class="overlay-text">⚡ Click to Test Live Interactive Site</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA to Full Projects Page -->
+                    <div class="work-cta-banner">
+                        <div class="work-cta-content">
+                            <h4>EXPLORE FULL PROJECTS REPOSITORY</h4>
+                            <p>Deep-dive into full project specifications, responsive device testing playgrounds, and complete architectural breakdowns.</p>
+                        </div>
+                        <a href="projects.html" class="work-cta-btn magnetic">
+                            <span>OPEN DEDICATED PROJECTS PAGE</span>
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="contact" id="contact" data-scroll-section>
             <div class="contact-label">
-                <p>( 03 / CONTACT )</p>
+                <p>( 04 / CONTACT )</p>
             </div>
             <div class="contact-content">
                 <div class="line">
@@ -136,6 +367,56 @@
             </footer>
         </section>
     </main>
+
+    <!-- Interactive Live Preview Modal -->
+    <div class="preview-modal" id="previewModal" aria-hidden="true">
+        <div class="preview-backdrop" id="modalBackdrop"></div>
+        <div class="preview-modal-dialog">
+            <div class="preview-modal-header">
+                <div class="modal-window-controls">
+                    <span class="modal-dot dot-red" id="modalCloseBtn" title="Close Preview"></span>
+                    <span class="modal-dot dot-yellow"></span>
+                    <span class="modal-dot dot-green"></span>
+                </div>
+                
+                <div class="modal-device-toggles">
+                    <button class="device-toggle active magnetic" data-device="desktop" title="Desktop View (Full Width)">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                        <span>Desktop</span>
+                    </button>
+                    <button class="device-toggle magnetic" data-device="tablet" title="Tablet View (768px)">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                        <span>Tablet</span>
+                    </button>
+                    <button class="device-toggle magnetic" data-device="mobile" title="Mobile View (375px)">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                        <span>Mobile</span>
+                    </button>
+                </div>
+
+                <div class="modal-title-bar">
+                    <span class="modal-site-title" id="modalSiteTitle">Project Preview</span>
+                    <span class="modal-site-url" id="modalSiteUrl">https://...</span>
+                </div>
+
+                <div class="modal-actions">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="modal-ext-link magnetic" id="modalExternalLink" title="Open live website in new tab">
+                        <span>Open Live</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                    <button class="modal-close-icon magnetic" id="modalCloseIcon" aria-label="Close modal">✕</button>
+                </div>
+            </div>
+
+            <div class="preview-modal-body" id="modalFrameContainer">
+                <div class="modal-loader" id="modalLoader">
+                    <div class="spinner"></div>
+                    <p>Connecting to live deployment...</p>
+                </div>
+                <iframe id="modalIframe" src="" title="Live Project Preview" allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
